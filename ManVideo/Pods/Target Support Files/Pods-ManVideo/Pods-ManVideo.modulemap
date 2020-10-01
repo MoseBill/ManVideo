@@ -1,0 +1,6 @@
+module Pods_ManVideo {
+  umbrella header "Pods-ManVideo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../RJBadgeKit/RJBadgeKit/Classes/BadgeModel/RJBadge.h

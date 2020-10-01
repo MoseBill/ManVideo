@@ -1,0 +1,1 @@
+../../../RJBadgeKit/RJBadgeKit/Classes/BadgeView/UITabBarItem+RJBadge.h

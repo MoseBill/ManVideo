@@ -1,0 +1,1 @@
+../../../RJBadgeKit/RJBadgeKit/Classes/Helper/NSString+RJBadge.h

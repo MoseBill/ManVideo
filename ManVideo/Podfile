@@ -1,0 +1,56 @@
+
+platform :ios, '8.0'
+
+target 'ManVideo' do
+
+pod 'GKNavigationBarViewController'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'MBProgressHUD'
+pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+pod 'MJExtension'
+pod 'Masonry'
+pod 'SDAutoLayout'
+pod 'JRSwizzle'
+pod 'FDFullscreenPopGesture'
+pod 'IQKeyboardManager'
+pod 'FMDB'
+pod 'JSONModel'
+pod 'LYEmptyView'
+pod 'RJBadgeKit'
+pod 'ZWPlaceHolder'
+pod 'JXCategoryView'
+pod 'YYModel'
+pod 'FLAnimatedImage'
+pod 'ZFPlayer'
+pod 'GPUImage'#视频采集
+pod 'FreeStreamer'                    # 音频播放
+pod 'SocketRocket'
+pod 'YYWebImage'
+pod 'SDWebImage'
+pod 'TXScrollLabelView'         #“走马灯”效果
+pod 'ASIHTTPRequest', '~> 1.8.2'
+pod 'WTAuthorizationTool' #权限
+pod 'TZImagePickerController'
+pod 'Reveal-SDK', :configurations => ['Debug']
+pod 'UITableView+FDTemplateLayoutCell'
+
+#pod 'LNRefresh'
+#pod 'Reachability'
+#pod 'SDWebImage'
+#pod 'CocoaHTTPServer'
+# pod 'FBRetainCycleDetector'
+# pod 'MLeaksFinder'
+
+#  target 'ManVideoTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+#
+#  target 'ManVideoUITests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+
+end

@@ -1,0 +1,38 @@
+//
+//  VDPrefixHeader.pch
+//  iOSMovie
+//
+//  Created by Josee on 08/03/2019.
+//  Copyright © 2019 Josee. All rights reserved.
+//
+
+#ifndef VDPrefixHeader_pch
+#define VDPrefixHeader_pch
+
+#import "Pods.h"
+#import "Base.h"
+#import "Other.h"
+
+#pragma mark —— 即将被废弃的
+//#import "LNRefresh.h"
+//#import "CTMediator.h"
+//#import "CTMediator+NewsActions.h"
+//#import "NMBaseViewController.h"
+//#import "TapSliderScrollView.h"
+//#import "UIImageView+ZFCache.h"
+//#import "ZFIJKPlayerManager.h"
+//#import "ZFPlayerControlView.h"
+//#import "ZFLoadingView.h"
+//#import "ZFSliderView.h"
+//#import "KSMediaPlayerManager.h"
+//#import <UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+//#import <UIViewController+MJPopupViewController.h>
+//#import <MLLabel/MLLinkLabel.h>
+//#import "MLeaksFinder.h"
+//#import "Tools.h"//数据库
+//#import "SQLiteManager.h"//数据库
+
+
+
+
+#endif /* VDPrefixHeader_pch */

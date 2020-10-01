@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AbountUsController">
+            <connections>
+                <outlet property="backView" destination="cd5-AR-a9X" id="6Gh-86-86n"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cd5-AR-a9X">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="575"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="Thy-S2-QtN">
+                            <rect key="frame" x="132.5" y="112" width="110" height="110"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="Kgb-zD-pCi"/>
+                                <constraint firstAttribute="height" constant="110" id="UeW-3c-TWy"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clipyeu++" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HT2-1o-hMw">
+                            <rect key="frame" x="148.5" y="224" width="78" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="19" id="wdb-ig-03h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本 1.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hre-25-DWv">
+                            <rect key="frame" x="161" y="245" width="53" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="1qe-NS-g0q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ali-56-Ekn">
+                            <rect key="frame" x="34" y="303" width="307" height="217"/>
+                            <mutableString key="text">APP CLIPYEU++ Là 1 Mạng Xã Hội Hoàn Toàn Miễn Phí, MỚI MẼ và AN TOÀN. Được biết đến như một APP ĐỘC NHẤT - THÚ VỊ NHẤT - GÂY KÍCH THÍCH NHẤT và DUY NHẤT cho cộng đồng mạng xã hội Việt Nam, đây là hoàn toàn dành riêng cho bạn. Những bí mật thầm kín nhất sẽ được bạn chia sẻ đăng tải và lưu trữ trọn vẹn những cảm giác thỏa mãn trong tâm hồn lẫn thể xác của bạn. Cộng đồng với hàng trăm nghìn thành viên chính là nơi bạn có thể thoải mái trút bầu tâm sự. Nói những lời giấu kín trong lòng mà bạn chưa được thể hiện. Mọi cảm xúc đều được trải nghiệm và hưởng ứng nhiệt tình bởi tất cả các thành viên trong cộng đồng CLIPYEU++. Đây không chỉ là nơi để bạn thỏa sức chia sẻ thú vui mà còn là nơi giúp bạn KIẾM TIỀN DỄ DÀNG. Các giải thưởng cực kỳ lớn lên tới 50,000,000 đồng và nhiều hơn thế nữa. Cùng với vô số các hạn mức giải thưởng hấp dẫn như tiền mặt và card điện thoại. Đây chắc chắn sẽ là nơi vừa vui chơi giải trí vừa mang lại nguồn thu nhập hấp dẫn cho bạn.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.058823529411764705" green="0.035294117647058823" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ali-56-Ekn" firstAttribute="leading" secondItem="cd5-AR-a9X" secondAttribute="leading" constant="34" id="0RI-Eb-oBP"/>
+                        <constraint firstItem="ali-56-Ekn" firstAttribute="top" secondItem="hre-25-DWv" secondAttribute="bottom" constant="42" id="Jnh-wX-MpS"/>
+                        <constraint firstItem="HT2-1o-hMw" firstAttribute="centerX" secondItem="Thy-S2-QtN" secondAttribute="centerX" id="Yt6-Cb-312"/>
+                        <constraint firstItem="hre-25-DWv" firstAttribute="top" secondItem="HT2-1o-hMw" secondAttribute="bottom" constant="2" id="aMZ-Ol-Pzp"/>
+                        <constraint firstAttribute="bottom" secondItem="ali-56-Ekn" secondAttribute="bottom" constant="55" id="hcy-ga-A95"/>
+                        <constraint firstItem="Thy-S2-QtN" firstAttribute="centerX" secondItem="cd5-AR-a9X" secondAttribute="centerX" id="i7b-89-bvB"/>
+                        <constraint firstItem="Thy-S2-QtN" firstAttribute="top" secondItem="cd5-AR-a9X" secondAttribute="top" constant="112" id="naw-CR-aHh"/>
+                        <constraint firstItem="HT2-1o-hMw" firstAttribute="top" secondItem="Thy-S2-QtN" secondAttribute="bottom" constant="2" id="ptP-6M-p92"/>
+                        <constraint firstItem="hre-25-DWv" firstAttribute="centerX" secondItem="HT2-1o-hMw" secondAttribute="centerX" id="wQw-vc-Do4"/>
+                        <constraint firstAttribute="trailing" secondItem="ali-56-Ekn" secondAttribute="trailing" constant="34" id="xbc-k4-TEZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cd5-AR-a9X" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1WU-FS-EbW"/>
+                <constraint firstAttribute="trailing" secondItem="cd5-AR-a9X" secondAttribute="trailing" id="2YJ-th-ubF"/>
+                <constraint firstItem="cd5-AR-a9X" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QRS-sb-qxW"/>
+                <constraint firstAttribute="bottom" secondItem="cd5-AR-a9X" secondAttribute="bottom" constant="92" id="Um0-Cr-fHI"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="96.7016491754123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about" width="109.5" height="109.5"/>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Clipyeu ++
+
+  Created by Josee on 01/05/2019.
+  Copyright © 2019 Josee. All rights reserved.
+*/
+"CFBundleDisplayName" ="Clipyeu++";
+"NSContactsUsageDescription" = "亲，是否允许与通讯录好友聊天";
+//"Privacy - Camera Usage Description"="是否允许此App使用你的相机";
+"NSLocationWhenInUseUsageDescription" ="系统想要访问您的位置";
+"NSCameraUsageDescription" = "是否允许此App使用你的相机";
+"NSMicrophoneUsageDescription"="系统想要访问您的麦克风";
+"NSPhotoLibraryAdditionsUsageDescription"="系统需要访问您的相册";
+"NSPhotoLibraryUsageDescription"="系统需要访问您的相册";
